@@ -1,7 +1,7 @@
 # pynetics
 A genetic soup in Python
 
-The coding plan is going to be in [pynetics_plan.md](pynetics_plan.md) so we don't mix up the documentation with the
+The coding plan is going to be in [pynetics.plan.md](./pynetics.plan.md) so we don't mix up the documentation with the
 coding plan. This also would serve to the purpose of syncing with other people if needed.
 
 ## Introduction
