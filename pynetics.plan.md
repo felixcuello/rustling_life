@@ -4,10 +4,12 @@ This coding plan outlines the structure and components of the Pynetics project, 
 
 - [ ] Create a conda environment for the project.
 
+- [ ] Add some documentation about the project setup in a README.md file.
+
 - [ ] Definir cuál es la biblioteca que vamos a usar para dibujo
     - [ ] Arcade
     - [ ] Pyglet
-    - [ ] PyGame
+    - [ ] PyGame (This is very simple and I think it will be enough)
 - [ ] Create a requirements.txt file to manage dependencies.
 
 - [ ] Define a very simple entity class with basic attributes:
