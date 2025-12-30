@@ -1,8 +1,22 @@
-# pynetics
-A genetic soup in Python
+# Rustling Life
+A genetic soup in Rust
 
-The coding plan is going to be in [pynetics.plan.md](./pynetics.plan.md) so we don't mix up the documentation with the
+The coding plan is going to be in [rustling_life.plan.md](./rustling_life.plan.md) so we don't mix up the documentation with the
 coding plan. This also would serve to the purpose of syncing with other people if needed.
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+You need to have conda/miniconda installed on your system:
+- **macOS**: `brew install --cask miniconda`
+- **Other platforms**: Download from [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+
+### Environment Setup
+
+TBD
 
 ---
 
@@ -11,9 +25,9 @@ I am interested in playing with genetics. Creating some sort of simulation with 
 use to simulate some evolution.
 
 I have already done this in Ruby some time ago, but I wasn't satisfied with the results and I am trying again now with
-Python.
+Rust.
 
-I only do this for the merely fun of it and to learn more about Python and some sort of "genetics".
+I only do this for the merely fun of it and to learn more about Rust and some sort of "genetics".
 
 ### The Goal
 The goal is to create a small simulation where we can create some entities with a set of genes. These entitites will
@@ -24,7 +38,7 @@ then be able to reproduce, mutate and evolve over time.
 We will have some set of genes that will define the entity's characteristics. These genes will be represented as a
 string floating point numbers between 0 and 1. For example a gene vector could look like this:
 
-```python
+```rust
 [1.0, 0.5, 0.2, 0.8, 0.1, 0.2, ....]
 ```
 
