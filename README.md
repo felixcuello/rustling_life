@@ -10,9 +10,7 @@ coding plan. This also would serve to the purpose of syncing with other people i
 
 ### Prerequisites
 
-You need to have conda/miniconda installed on your system:
-- **macOS**: `brew install --cask miniconda`
-- **Other platforms**: Download from [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- Rust installed. You can install Rust using [rustup](https://rustup.rs/).
 
 ### Environment Setup
 

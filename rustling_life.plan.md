@@ -1,16 +1,13 @@
-# Pynetics Coding Plan
+# Rustling Life Coding Plan
 
-This coding plan outlines the structure and components of the Pynetics project, a genetic simulation in Python.
+This coding plan outlines the structure and components of the Rustling Life project, a genetic simulation in Rust.
 
-- [ ] Create a conda environment for the project.
+- [ ] Create the project with Cargo
 
 - [ ] Add some documentation about the project setup in a README.md file.
 
-- [ ] Definir cuál es la biblioteca que vamos a usar para dibujo
-    - [ ] Arcade
-    - [ ] Pyglet
-    - [ ] PyGame (This is very simple and I think it will be enough)
-- [ ] Create a requirements.txt file to manage dependencies.
+- [x] Definir cuál es la biblioteca que vamos a usar para dibujo
+    - [x] Macroquad
 
 - [ ] Define a very simple entity class with basic attributes:
     - [ ] Genes
