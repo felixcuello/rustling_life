@@ -2,7 +2,9 @@
 
 This coding plan outlines the structure and components of the Rustling Life project, a genetic simulation in Rust.
 
-- [ ] Create the project with Cargo
+- [x] Create the project with Cargo
+
+- [ ] Create a github workflow for building and testing the project
 
 - [ ] Add some documentation about the project setup in a README.md file.
 
