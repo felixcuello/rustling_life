@@ -1,7 +1,7 @@
 # Rustling Life
 A genetic soup in Rust
 
-The coding plan is going to be in [rustling_life.plan.md](./rustling_life.plan.md) so we don't mix up the documentation with the
+The coding plan is going to be in [rustling_life.plan.md](./rustling_life/plan.md) so we don't mix up the documentation with the
 coding plan. This also would serve to the purpose of syncing with other people if needed.
 
 ---
@@ -231,13 +231,15 @@ but it also has a 20% chance of ignoring the food and doing something else.
 
 When two entities reproduce, the child entity will inherit the genes of both parents like this:
 
-```
-mutation_sum = parent1.mutation_rate + parent2.mutation_rate
-child_genes = []
-for i in range(len(parent1.genes)):
-    if(i == mutation_rate_gene_index):
-        continue
-    child_gene[i] = (parent1.genes[i] * parent1.mutation_rate + parent2.genes[i] * parent2.mutation_rate) / mutation_sum
+```rust
+let mutation_sum = parent1.mutation_rate + parent2.mutation_rate;
+let mut child_genes = Vec::new();
+for i in 0..parent1.genes.len() {
+    if i == mutation_rate_gene_index {
+        continue;
+    }
+    child_genes.push((parent1.genes[i] * parent1.mutation_rate + parent2.genes[i] * parent2.mutation_rate) / mutation_sum);
+}
 ```
 
 
